@@ -8,8 +8,52 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1 class="bg-danger">Hello, world!</h1>
-    <p class="test">Local style</p>
+
+    <!-- - Create a bootstrap grid layout that has 3 columns. Remember that columns go in rows and rows go in container.
+        
+- Put a bootstrap card into each column and make sure they are evenly spaced across the page. Give each card an image. You can use this website for help on the images https://placeholder.com/
+
+- Add some sort of custom styling in your css file and make sure it works. -->
+
+<div class="container-fluid justify-content-center">
+    <div class="row bg-secondary justify-content-evenly">
+        <!-- card 1 -->
+        <div class="col-2 bg-danger d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-2 bg-danger d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-2 bg-danger d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
